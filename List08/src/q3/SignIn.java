@@ -1,11 +1,14 @@
 package q3;
 
 public class SignIn {
-    boolean verifyCredential(String psw){
-        if(psw.equals("123aaa")){
+    String password = "mirtilãoDoRogerinh";
+
+    SignIn(){}
+
+    boolean verifyCredentials(String password){
+        if (this.password.equals(password)){
             return true;
-        }else{
-            return false;
         }
+        return false;
     }
 }

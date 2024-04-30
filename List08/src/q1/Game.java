@@ -6,5 +6,6 @@ public class Game {
 
         System.out.println(dice.generateD4(4));
         dice.generateD6(6);
+        dice.generateD20();
     }
 }
