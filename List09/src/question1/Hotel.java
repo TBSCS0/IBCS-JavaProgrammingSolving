@@ -8,8 +8,9 @@ public class Hotel {
 
         System.out.println(room3.getValue());
         room2.setValue(600);
-
         room1.setValue(300);
         System.out.println(room1.getValue());
+
+        System.out.println(room1.roomPriceAverage());
     }
 }
