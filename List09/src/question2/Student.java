@@ -36,6 +36,6 @@ public class Student {
     }
 
     public int graduate(){
-        return yearGroup+1;
+        return yearGroup + 1;
     }
 }

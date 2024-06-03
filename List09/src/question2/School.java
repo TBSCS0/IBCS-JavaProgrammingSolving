@@ -12,6 +12,4 @@ public class School {
         std1.setName("Emile");
         System.out.println(std1.getName());
     }
-
-
 }
