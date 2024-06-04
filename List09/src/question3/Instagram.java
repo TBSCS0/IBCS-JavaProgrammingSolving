@@ -9,10 +9,10 @@ public class Instagram {
         User usr2 = new User("Eric Singer", "url", post2);
 
         usr2.setName("Paul Stanley");
-        usr1.getPost().setImage("new url");
-        System.out.println(usr1.getPost().getImage());
+        usr1.getPost().setImage("mirtilos.png");
 
-        usr2.getPost().setDescription("new description");
+        usr2.getPost().setDescription("#BegoMirtilo");
+
         System.out.println(usr2.getPost().getDescription());
     }
 }

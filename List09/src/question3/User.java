@@ -3,7 +3,6 @@ package question3;
 public class User {
     private String name;
     private String image;
-
     private Post post;
 
     public User(String name, String image, Post post) {
