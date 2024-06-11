@@ -11,6 +11,8 @@ public class School {
 
         Student std4 = new Student("Nikhil", null, null, null, null);
 
+        std4.setAddress("Rua david Perez, 126");
+        System.out.println(std4.getAddress());
         System.out.println(std4.getAddress());
     }
 }

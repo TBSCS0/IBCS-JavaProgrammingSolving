@@ -3,7 +3,7 @@ package question1;
 public class User {
     protected String name;
     protected String username;
-    protected String password;
+    private String password;
 
     public User(String name, String username, String password) {
         this.name = name;
