@@ -2,11 +2,14 @@ package question1;
 
 public class DragonLair {
     public static void main(String[] args) {
-        DiceController diceController = new DiceController();
-        Dice d1 = diceController.generateNumber(10);
-        Dice d2 = diceController.generateNumber(10);
+        DiceController diceController = new DiceController(); // constructor will start with A
 
-        System.out.println( d1.getLabel() + " " + d1.getNumber());
-        System.out.println( d2.getLabel() + " " + d2.getNumber());
+        Dice dice1 = diceController.generateNumber(6); // will put A and change to B
+        Dice dice2 = diceController.generateNumber(6);
+        Dice dice3 = diceController.generateNumber(6);
+
+        System.out.println(dice1.getLabel() + ": " + dice1.getNumber());
+        System.out.println(dice2.getLabel() + ": " + dice2.getNumber());
+        System.out.println(dice3.getLabel() + ": " + dice3.getNumber());
     }
 }

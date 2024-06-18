@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/CS12.iml" filepath="$PROJECT_DIR$/.idea/CS12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/List02/List02.iml" filepath="$PROJECT_DIR$/List02/List02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/List07/List07.iml" filepath="$PROJECT_DIR$/List07/List07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/List08/List08.iml" filepath="$PROJECT_DIR$/List08/List08.iml" />
+      <module fileurl="file://$PROJECT_DIR$/List09/List09.iml" filepath="$PROJECT_DIR$/List09/List09.iml" />
+      <module fileurl="file://$PROJECT_DIR$/List10/List10.iml" filepath="$PROJECT_DIR$/List10/List10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/List11/List11.iml" filepath="$PROJECT_DIR$/List11/List11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/List12/List12.iml" filepath="$PROJECT_DIR$/List12/List12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/List12-2/List12-2.iml" filepath="$PROJECT_DIR$/List12-2/List12-2.iml" />
+    </modules>
+  </component>
+</project>
