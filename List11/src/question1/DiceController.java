@@ -13,15 +13,9 @@ public class DiceController {
     }
 
     public Dice generateNumber(int x){
-        int number = random.nextInt(x+1);
+        int number = random.nextInt(x)+1;
         dice = new Dice(label, number);
         label++;
         return dice;
     }
-
-//    public Dice generateNumber(int x, int y){
-//        return null;
-//    }
-
-
 }
