@@ -28,27 +28,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.DragonLair.executor": "Run",
-    "Application.Hospital.executor": "Run",
-    "Application.ImageToAscii.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Mario.executor": "Run",
-    "Application.demo.Main.executor": "Debug",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/oscar neiva/Desktop/CS12",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "ml.llm.AIAssistantPromptsLibrary",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.DragonLair.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Hospital.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ImageToAscii.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Mario.executor&quot;: &quot;Run&quot;,
+    &quot;Application.demo.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/oscar neiva/Desktop/CS12&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;ml.llm.AIAssistantPromptsLibrary&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\oscar neiva\Desktop\CS12\List12\src\vine" />
@@ -120,7 +120,8 @@
       <workItem from="1723219434249" duration="1236000" />
       <workItem from="1723560258202" duration="1053000" />
       <workItem from="1724254890006" duration="14000" />
-      <workItem from="1724425974204" duration="3426000" />
+      <workItem from="1724425974204" duration="3611000" />
+      <workItem from="1724673942876" duration="37000" />
     </task>
     <servers />
   </component>
@@ -134,11 +135,6 @@
           <url>file://$PROJECT_DIR$/List12/src/demo/Main.java</url>
           <line>16</line>
           <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/List12/src/demo/Main.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

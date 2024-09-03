@@ -3,13 +3,9 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         int[] arr = {6, 5, 8, 3, 6, 10};
-        //q5();
-        q7();
-        //q9();
-        //System.out.println(q0(arr));
     }
 
-    public static int q0(int[] arr){
+    public static void q1(int[] arr){
         int size = arr.length;
         int count = 0;
         for (int i = 0; i < size; i++) {
@@ -17,7 +13,7 @@ public class Main {
                 count++; // count = count + 1
             }
         }
-        return count;
+        System.out.println(count);
     }
 
     public static void q5(){
