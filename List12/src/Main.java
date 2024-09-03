@@ -2,7 +2,9 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        int[] arr = {6, 5, 8, 3, 6, 10};
+        int[] arr = {1,4,17,7,25,3,100};
+        int k = 3;
+        System.out.println( q5(arr, k)[0] );
     }
 
     public static void q1(int[] arr){
@@ -16,43 +18,23 @@ public class Main {
         System.out.println(count);
     }
 
-    public static void q5(){
-        int[] arr = {1, 4, 17, 7, 25, 3, 100};
-
-        int k = 3;
-        int[] max = new int[k];
+    public static int[] q5(int[] arr, int k){
+        int[] maxArr = new int[k];
         int maxIndex = 0;
 
-        int[] min = new int[k];
-        int minIndex = 0;
-
-        // Find k max elements
-        for (int i = 0; i < max.length; i++) {
+        for (int i = 0; i < maxArr.length; i++) {
+            int max = arr[0];
             for (int j = 0; j < arr.length; j++) {
-                if (arr[j] > max[i]){
-                    max[i] = arr[j];
+                if(arr[j] > max){
+                    max = arr[j];
                     maxIndex = j;
                 }
             }
+
+            maxArr[i] = arr[maxIndex];
             arr[maxIndex] = 0;
         }
-        for (int i = 0; i < max.length; i++) {
-            System.out.println(max[i]);
-        }
-
-        // Find k smallests elements
-        for (int i = 0; i < min.length; i++) {
-            for (int j = 0; j < arr.length; j++) {
-                if (arr[j] > min[i]){
-                    min[i] = arr[j];
-                    minIndex = j;
-                }
-            }
-            arr[minIndex] = 0;
-        }
-        for (int i = 0; i < min.length; i++) {
-            System.out.println(min[i]);
-        }
+        return maxArr;
     }
 
     public static void q7(){
