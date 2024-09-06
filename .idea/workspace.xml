@@ -33,7 +33,7 @@
     "Application.DragonLair.executor": "Run",
     "Application.Hospital.executor": "Run",
     "Application.ImageToAscii.executor": "Run",
-    "Application.Main.executor": "Run",
+    "Application.Main.executor": "Debug",
     "Application.Mario.executor": "Run",
     "Application.demo.Main.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -122,7 +122,8 @@
       <workItem from="1724254890006" duration="14000" />
       <workItem from="1724425974204" duration="3611000" />
       <workItem from="1724673942876" duration="37000" />
-      <workItem from="1725374597718" duration="1908000" />
+      <workItem from="1725374597718" duration="2976000" />
+      <workItem from="1725638260953" duration="1475000" />
     </task>
     <servers />
   </component>

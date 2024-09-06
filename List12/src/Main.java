@@ -3,19 +3,8 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         int[] arr = {1,4,17,7,25,3,100};
-        int k = 3;
-        System.out.println( q5(arr, k)[0] );
-    }
-
-    public static void q1(int[] arr){
-        int size = arr.length;
-        int count = 0;
-        for (int i = 0; i < size; i++) {
-            if (arr[i]%5==0){
-                count++; // count = count + 1
-            }
-        }
-        System.out.println(count);
+        int k = 2;
+        q7(arr,k);
     }
 
     public static int[] q5(int[] arr, int k){
@@ -37,49 +26,30 @@ public class Main {
         return maxArr;
     }
 
-    public static void q7(){
-        int[] arr = {7, 2, 4, 1, 3, 5, 6, 8, 2, 10};
-        //int[] arrx = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
-        int[] arrx = new int[arr.length];
-        int first = 0;
-        int last = arrx.length - 1;
-
-        for (int i = 0; i < arr.length; i++) {
-
-            if(arr[i] % 2 == 0){ // put even at the beginning
-                arrx[first] = arr[i];
-                first++;
-            }else{
-                arrx[last] = arr[i];
-                last--;
-            }
-
-            for (int j = 0; j < arrx.length; j++) {
-                System.out.print(arrx[j] + " ");
-            }
-            System.out.println();
-        }
+    public static void q7(int[] arr, int k){
 
 
-
-    }
-
-    public static void q8(){
-
-    }
-
-    public static void q9(){
-        int[] arr = {666,9,667,17,5,1,0,55};
+        int[] maxArr = new int[k];
+        int[] minArr = new int[k];
         int size = arr.length;
 
-        for (int i = 0; i < size-1; i++) {
-            for (int j = 0; j < size-1-i; j++) {
-                if (arr[j + 1] < arr[j]) {
-                    int aux = arr[j]; // swap
-                    arr[j] = arr[j + 1];
-                    arr[j + 1] = aux;
+        for (int i = 0; i < k; i++) {
+            int maxIndex = 0, minIndex = 0;
+            for (int j = i+1; j < arr.length- i; j++) {
+                if (arr[maxIndex] > arr[j]) {
+                    maxIndex = j;
+                }
+                if (arr[minIndex] < arr[j]) {
+                    minIndex = j;
                 }
             }
+            maxArr[i] = arr[maxIndex];
+            minArr[i] = arr[minIndex];
+            arr[minIndex] = arr[i];
+            arr[i] = minArr[i];
+            arr[size - i -1] = maxArr[i];
+            arr[maxIndex] = minArr[size - i -1];
         }
+
     }
 }
