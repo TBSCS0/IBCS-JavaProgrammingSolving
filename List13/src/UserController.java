@@ -44,8 +44,19 @@ public class UserController {
         }
     }
 
-    public void update(){
-
+    public void update(String name, int age){
+        try {
+            FileWriter fileWriter = new FileWriter("./data/users.csv");
+            for (int i = 0; i < users.size(); i++) {
+                if(users.get(i).getName().equals(name)){
+                    users.get(i).setAge(age);
+                }
+                fileWriter.write(users.get(i).getName()+","+users.get(i).getAge()+"\n");
+            }
+            fileWriter.close();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 
     public void delete(){
